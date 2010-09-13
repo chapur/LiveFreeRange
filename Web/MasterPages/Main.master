@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="MasterPages_Main" %>
+<%@ register tagprefix="uc" src="~/UserControls/Footer.ascx" tagname="footer" %>
+<%@ register tagprefix="uc" src="~/UserControls/Header.ascx" tagname="header" %>
+<%@ register tagprefix="uc" src="~/UserControls/PageHeadAndTitle.ascx" tagname="pageheadandtitle" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<uc:pageheadandtitle id="ucPageHeadAndTitle" runat="server" />
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <uc:header id="ucHeader" runat="server" />
+        </div>
+        <div id="menu">
+            <asp:contentplaceholder id="cphMenu" runat="server">
+            </asp:contentplaceholder>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder id="cphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <uc:footer id="ucFooter" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+.li1Closed{
+	margin-left:0px;
+}
+.li2Closed{
+	margin-left:50px;
+}
+.li3Closed{
+	margin-left:100px;
+}
+.li4Closed{
+	margin-left:150px;
+}
+.li5Closed{
+	margin-left:200px;
+}
+
+.li1Open{
+	margin-left:-700px;
+}
+.li2Open{
+	margin-left:-650px;
+}
+.li3Open{
+	margin-left:-600px;
+}
+.li4Open{
+	margin-left:-550px;
+}
+.li5Open{
+	margin-left:-500px;
+}
+
+.sheets-gallery {
+	overflow:hidden;
+}
+
+.sheets-gallery li{
+	overflow:hidden;
+}
+
+.gallery-number{
+	cursor:pointer;
+}

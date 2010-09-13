@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9A5D288-3ED2-40A0-A2E6-783DFF1F2C90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LiveFreeRange.DataAccess</RootNamespace>
+    <AssemblyName>LiveFreeRange.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccessBase.cs" />
+    <Compile Include="DataBaseHelper.cs" />
+    <Compile Include="Delete\ShoppingCartByGuidDeleteData.cs" />
+    <Compile Include="Delete\ShoppingCartDeleteData.cs" />
+    <Compile Include="Insert\EndUserInsertData.cs" />
+    <Compile Include="Insert\OrderDetailsInsertData.cs" />
+    <Compile Include="Insert\OrderInsertData.cs" />
+    <Compile Include="Insert\ProductInsertData.cs" />
+    <Compile Include="Insert\ShoppingCartInsertData.cs" />
+    <Compile Include="Insert\ShowcaseInsertData.cs" />
+    <Compile Include="Linq\LiveFreeRange.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LiveFreeRange.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Select\AdminLoginSelectData.cs" />
+    <Compile Include="Select\ColourSelectData.cs" />
+    <Compile Include="Select\ContactInformationSelectData.cs" />
+    <Compile Include="Select\EndUserLoginSelectData.cs" />
+    <Compile Include="Select\NewsletterSelectData.cs" />
+    <Compile Include="Select\OrderDetailsSelectData.cs" />
+    <Compile Include="Select\OrdersAllSelectData.cs" />
+    <Compile Include="Select\OrdersSelectByIdData.cs" />
+    <Compile Include="Select\OrdersSelectData.cs" />
+    <Compile Include="Select\OrderStatusSelectData.cs" />
+    <Compile Include="Select\ProductCategorySelectByIdData.cs" />
+    <Compile Include="Select\ProductCategorySelectData.cs" />
+    <Compile Include="Select\ProductNamesSelectData.cs" />
+    <Compile Include="Select\ProductPromotionSelectData.cs" />
+    <Compile Include="Select\ProductsSelectByNameData.cs" />
+    <Compile Include="Select\ProductSelectByIntIdData.cs" />
+    <Compile Include="Select\ProductsSelectByCategoryIdData.cs" />
+    <Compile Include="Select\ProductSelectByProductIdData.cs" />
+    <Compile Include="Select\ProductSelectData.cs" />
+    <Compile Include="Select\ProductSelectSearchData.cs" />
+    <Compile Include="Select\ProductsSelectBySubCategoryIdData.cs" />
+    <Compile Include="Select\ProductStockLevelSelectByIdData.cs" />
+    <Compile Include="Select\ShoppingCartSelectData.cs" />
+    <Compile Include="Select\ShowcaseSelectByPageIdData.cs" />
+    <Compile Include="Select\SizeSelectData.cs" />
+    <Compile Include="Select\SubCategorySelectByProductCategoryIdData.cs" />
+    <Compile Include="Select\SubCategorySelectData.cs" />
+    <Compile Include="Select\WeightSelectData.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="StoredProcedure.cs" />
+    <Compile Include="Transaction\OrderInsertTransaction.cs" />
+    <Compile Include="Transaction\TransactionBase.cs" />
+    <Compile Include="Update\NewsletterUpdateData.cs" />
+    <Compile Include="Update\OrderUpdateData.cs" />
+    <Compile Include="Update\ProductUpdateData.cs" />
+    <Compile Include="Update\ShoppingCartUpdateData.cs" />
+    <Compile Include="Update\StockLevelUpdateData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiveFreeRange.Common\LiveFreeRange.Common.csproj">
+      <Project>{57A079AB-8E13-468C-AFC0-705EC7644BCD}</Project>
+      <Name>LiveFreeRange.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Linq\LiveFreeRange.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LiveFreeRange.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Linq\LiveFreeRange.dbml.layout">
+      <DependentUpon>LiveFreeRange.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

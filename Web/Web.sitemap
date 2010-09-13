@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Home">
+		<siteMapNode url="~/Catalogue.aspx?CategoryId=1" title="Men"  description="Catalogue">
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=1&#38;SubcategoryId=1" title="Tee" description="Catalogue"/>
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=1&#38;SubcategoryId=2" title="Hoody" description="Catalogue"/>
+		</siteMapNode>
+		<siteMapNode url="~/Catalogue.aspx?CategoryId=2" title="Women"  description="Catalogue">
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=2&#38;SubCategoryId=3" title="Tee" description="Catalogue"/>
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=2&#38;SubCategoryId=4" title="Hoody" description="Catalogue"/>
+		</siteMapNode>
+		<siteMapNode url="~/Catalogue.aspx?CategoryId=3" title="Kids"  description="Catalogue">
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=3&#38;SubCategoryId=5" title="Tee" description="Catalogue" />
+			<siteMapNode url="~/Catalogue.aspx?CategoryId=3&#38;SubCategoryId=6" title="Hoodie" description="Catalogue" />
+		</siteMapNode>
+    </siteMapNode>
+</siteMap>

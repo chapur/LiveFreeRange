@@ -1,0 +1,91 @@
+﻿<%@ master language="C#" autoeventwireup="true" codefile="Cambodian.master.cs" inherits="MasterPages_Cambodian" %>
+<%@ register tagprefix="uc" src="~/UserControls/Footer.ascx" tagname="footer" %>
+<%@ register tagprefix="uc" src="~/UserControls/Header.ascx" tagname="header" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Default Description" />
+    <meta name="keywords" content="Sheets, Varien, E-commerce" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = '~/js/blank.html';
+    var BLANK_IMG = '~/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="../Css/styles.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../Css/custom.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../Fancybox/jquery.fancybox-1.3.1.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../Css/print.css" media="print" />
+
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript" src="http://sheets.worryfreelabs.com/skin/frontend/base/default/js/jquery.curvycorners.min.js"></script>
+
+    <script type="text/javascript" src="http://sheets.worryfreelabs.com/skin/frontend/base/default/js/tastyimage.js"></script>
+
+    <script type="text/javascript" src="~/fancybox/jquery.fancybox-1.3.1.js"></script>
+
+    <script type="text/javascript" src="~/js/sheets.js"></script>
+
+    <!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="~/css/styles-ie.css" media="all" />
+<![endif]-->
+    <!--[if lt IE 7]>
+<script type="text/javascript" src="~/js/ds-sleight.js"></script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="~/css/overrides.css" media="all" />
+
+    <script type="text/javascript" src="~/js/jquery-ui-1.8.4.custom.min.js"></script>
+
+    <script type="text/javascript" src="~/js/home_slider.js"></script>
+
+    <script type="text/javascript">
+	jQuery.noConflict();
+	jQuery(document).ready(function(){
+		jQuery('.sheets-gallery ul li').accordionSlider();
+	});
+</script>
+
+</head>
+<body id="bodyTag" runat="server">
+<form id="form1" runat="server">
+<div class="wrapper">
+    <noscript>
+    <div class="noscript">
+        <div class="noscript-inner">
+            <p><strong>JavaScript seem to be disabled in your browser.</strong></p>
+            <p>You must have JavaScript enabled in your browser to utilize the functionality of this website.</p>
+        </div>
+    </div>
+	</noscript>
+    <div class="page">
+        <div class="header-container">
+    		 <uc:header id="ucHeader" runat="server" />
+		</div>
+		<!-- end header container -->
+        <div class="main-container col1-layout">
+            <div class="main">
+            	<div>
+            		<div>
+            		<asp:contentplaceholder id="cphMain" runat="server" />
+                    	
+					</div>
+				</div>
+            </div>
+        </div>
+        <!-- start footer -->
+        <div class="footer-container">
+        <uc:footer id="ucFooter" runat="server" />
+        </div>
+    </div>
+</div>
+</form>
+</body>
+</html>

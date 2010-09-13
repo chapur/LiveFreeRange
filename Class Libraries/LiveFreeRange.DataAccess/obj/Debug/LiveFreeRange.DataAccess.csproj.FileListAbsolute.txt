@@ -1,0 +1,15 @@
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.DataAccess.dll
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.DataAccess.pdb
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.Common.dll
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.Common.pdb
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\LiveFreeRange.DataAccess.dll
+D:\Websites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\LiveFreeRange.DataAccess.pdb
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.DataAccess.dll
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.DataAccess.pdb
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.Common.dll
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.Common.pdb
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\LiveFreeRange.DataAccess.dll
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\obj\Debug\LiveFreeRange.DataAccess.pdb
+C:\WebSites\LiveFreeRange\Class Libraries\LiveFreeRange.DataAccess\bin\Debug\LiveFreeRange.DataAccess.dll.config

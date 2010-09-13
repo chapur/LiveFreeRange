@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E935C4A9-3EEC-46BD-9080-2B02DFBDD9E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LiveFreeRange.BusinessLogic</RootNamespace>
+    <AssemblyName>LiveFreeRange.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IBusinessLogic.cs" />
+    <Compile Include="ProcessAddEndUser.cs" />
+    <Compile Include="ProcessAddOrder.cs" />
+    <Compile Include="ProcessAddProduct.cs" />
+    <Compile Include="ProcessAddShoppingCart.cs" />
+    <Compile Include="ProcessAddShowcase.cs" />
+    <Compile Include="ProcessAdminLogin.cs" />
+    <Compile Include="ProcessDeleteShoppingCart.cs" />
+    <Compile Include="ProcessDeleteShoppingCartByGuid.cs" />
+    <Compile Include="ProcessEndUserLogin.cs" />
+    <Compile Include="ProcessGetAllOrders.cs" />
+    <Compile Include="ProcessGetColour.cs" />
+    <Compile Include="ProcessGetContactInformation.cs" />
+    <Compile Include="ProcessGetOrderById.cs" />
+    <Compile Include="ProcessGetOrderDetails.cs" />
+    <Compile Include="ProcessGetOrders.cs" />
+    <Compile Include="ProcessGetOrderStatus.cs" />
+    <Compile Include="ProcessGetProductsByName.cs" />
+    <Compile Include="ProcessGetProductNames.cs" />
+    <Compile Include="ProcessGetProductsByCategoryId.cs" />
+    <Compile Include="ProcessGetProductByProductId.cs" />
+    <Compile Include="ProcessGetProductCategory.cs" />
+    <Compile Include="ProcessGetProducts.cs" />
+    <Compile Include="ProcessGetProductsByIntId.cs" />
+    <Compile Include="ProcessGetProductsBySubCategoryId.cs" />
+    <Compile Include="ProcessGetProductsSearch.cs" />
+    <Compile Include="ProcessGetProductStockLevelById.cs" />
+    <Compile Include="ProcessGetPromotions.cs" />
+    <Compile Include="ProcessGetShoppingCart.cs" />
+    <Compile Include="ProcessGetShowcaseByPageId.cs" />
+    <Compile Include="ProcessGetSize.cs" />
+    <Compile Include="ProcessGetSubCategory.cs" />
+    <Compile Include="ProcessGetSubCategoryByProductCategoryId.cs" />
+    <Compile Include="ProcessGetWeight.cs" />
+    <Compile Include="ProcessNewsletter.cs" />
+    <Compile Include="ProcessNewsletterUnsubscribe.cs" />
+    <Compile Include="ProcessUpdateOrder.cs" />
+    <Compile Include="ProcessUpdateProduct.cs" />
+    <Compile Include="ProcessUpdateShoppingCart.cs" />
+    <Compile Include="ProcessUpdateStockLevel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiveFreeRange.Common\LiveFreeRange.Common.csproj">
+      <Project>{57A079AB-8E13-468C-AFC0-705EC7644BCD}</Project>
+      <Name>LiveFreeRange.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveFreeRange.DataAccess\LiveFreeRange.DataAccess.csproj">
+      <Project>{F9A5D288-3ED2-40A0-A2E6-783DFF1F2C90}</Project>
+      <Name>LiveFreeRange.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

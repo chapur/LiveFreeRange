@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/LiveFreeRange/!svn/ver/122/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess
+END
+SQLHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/LiveFreeRange/!svn/ver/6/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess/SQLHelper.cs
+END
+LiveFreeRange.DataAccess.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LiveFreeRange/!svn/ver/122/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess/LiveFreeRange.DataAccess.csproj
+END
+DataBaseHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/LiveFreeRange/!svn/ver/9/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess/DataBaseHelper.cs
+END
+DataAccessBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/LiveFreeRange/!svn/ver/6/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess/DataAccessBase.cs
+END
+StoredProcedure.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LiveFreeRange/!svn/ver/122/LiveFreeRange/Class%20Libraries/LiveFreeRange.DataAccess/StoredProcedure.cs
+END

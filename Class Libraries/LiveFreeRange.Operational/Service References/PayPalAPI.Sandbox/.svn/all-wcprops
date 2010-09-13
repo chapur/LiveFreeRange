@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoExpressCheckoutPaymentResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoExpressCheckoutPaymentResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.UpdateAccessPermissionsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.UpdateAccessPermissionsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetAuthDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetAuthDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.ManagePendingTransactionStatusResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.ManagePendingTransactionStatusResponseType.datasource
+END
+Reference.svcmap
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/Reference.svcmap
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoReauthorizationResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoReauthorizationResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetMobileStatusResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetMobileStatusResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoUATPAuthorizationResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoUATPAuthorizationResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.MassPayResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.MassPayResponseType.datasource
+END
+CoreComponentTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/CoreComponentTypes.xsd
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.ManageRecurringPaymentsProfileStatusResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.ManageRecurringPaymentsProfileStatusResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetAccessPermissionDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetAccessPermissionDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMButtonSearchResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMButtonSearchResponseType.datasource
+END
+eBLBaseComponents.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/eBLBaseComponents.xsd
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.EnterBoardingResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.EnterBoardingResponseType.datasource
+END
+Reference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/Reference.cs
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoVoidResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoVoidResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBalanceResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBalanceResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BAUpdateResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BAUpdateResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoCaptureResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoCaptureResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BillOutstandingAmountResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BillOutstandingAmountResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateRecurringPaymentsProfileResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateRecurringPaymentsProfileResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.SetAuthFlowParamResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.SetAuthFlowParamResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateMobilePaymentResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateMobilePaymentResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.RefundTransactionResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.RefundTransactionResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoUATPExpressCheckoutPaymentResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoUATPExpressCheckoutPaymentResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoNonReferencedCreditResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoNonReferencedCreditResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBoardingDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBoardingDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.SetExpressCheckoutResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.SetExpressCheckoutResponseType.datasource
+END
+configuration.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/configuration.svcinfo
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBillingAgreementCustomerDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 229
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetBillingAgreementCustomerDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMGetButtonDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMGetButtonDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.UpdateRecurringPaymentsProfileResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.UpdateRecurringPaymentsProfileResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.SetCustomerBillingAgreementResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.SetCustomerBillingAgreementResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMManageButtonStatusResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMManageButtonStatusResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetRecurringPaymentsProfileDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 229
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetRecurringPaymentsProfileDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.SetAccessPermissionsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.SetAccessPermissionsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.SetMobileCheckoutResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.SetMobileCheckoutResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.AddressVerifyResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.AddressVerifyResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.TransactionSearchResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.TransactionSearchResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMGetInventoryResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMGetInventoryResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoMobileCheckoutPaymentResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoMobileCheckoutPaymentResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMCreateButtonResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMCreateButtonResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BillUserResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BillUserResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetPalDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetPalDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoAuthorizationResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoAuthorizationResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetExpressCheckoutDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetExpressCheckoutDetailsResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoReferenceTransactionResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoReferenceTransactionResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMSetInventoryResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMSetInventoryResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.DoDirectPaymentResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.DoDirectPaymentResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.GetTransactionDetailsResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.GetTransactionDetailsResponseType.datasource
+END
+PayPalSvc.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/PayPalSvc.wsdl
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateBillingAgreementResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.CreateBillingAgreementResponseType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.CustomSecurityHeaderType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.CustomSecurityHeaderType.datasource
+END
+LiveFreeRange.Operational.PayPalAPI.Sandbox.BMUpdateButtonResponseType.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/LiveFreeRange/!svn/ver/13/LiveFreeRange/Class%20Libraries/LiveFreeRange.Operational/Service%20References/PayPalAPI.Sandbox/LiveFreeRange.Operational.PayPalAPI.Sandbox.BMUpdateButtonResponseType.datasource
+END

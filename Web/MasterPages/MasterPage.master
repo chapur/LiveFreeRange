@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPages_MasterPage" %>
+<%@ register tagprefix="uc" src="~/UserControls/Footer.ascx" tagname="footer" %>
+<%@ register tagprefix="uc" src="~/UserControls/Header.ascx" tagname="header" %>
+<%@ register tagprefix="uc" src="~/UserControls/PageHeadAndTitle.ascx" tagname="pageheadandtitle" %>
+<%@ register tagprefix="uc" src="~/UserControls/SearchBox.ascx" tagname="searchbox" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<uc:pageheadandtitle id="ucPageHeadAndTitle" runat="server" />
+<body>
+<form id="form1" runat="server">
+    <div id="wrapper">
+        
+        <!-- start header -->
+        <div id="header">
+	         <uc:header id="ucHeader" runat="server" />
+	    <!-- end #menu -->
+        </div>
+        <!-- end header -->
+        <!-- start page -->
+        <div id="page">
+        <!-- start content -->
+        <div id="content">
+        <div><asp:sitemappath id="siteMapPath1" runat="server" /></div>
+		<div style="margin-bottom: 10px;"><img src="images/landscape.jpg" alt="kite surfer stolen from patagonia website." /></div>
+		<div class="post">
+			<h2 class="title">Lorem Ipsum Dolor Volutpat</h2>
+			<div class="entry">
+				<p><asp:contentplaceholder id="cphMain" runat="server">
+				    </asp:contentplaceholder></p>
+				</div>
+		</div>
+	</div>
+        <!-- end content -->
+        <!-- start sidebar -->
+        <div id="sidebar">
+		<div id="sidebar-bgtop"></div>
+		<div id="sidebar-content">
+			<div id="sidebar-bgbtm">
+			<ul>
+				<li id="search">
+					<h2>Search</h2>
+					<uc:searchbox id="ucSearchBox" runat="server" />
+				</li>
+				<li>
+					<asp:contentplaceholder id="cphMenu" runat="server">
+				        <asp:menu id="treeNav" runat="server" orientation="Horizontal"  datasourceid="siteMapDataSource" />
+				    </asp:contentplaceholder>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+        <!-- end sidebar -->
+        <div style="clear:both; margin:0;"></div>
+        </div>
+        <!-- end page --> 
+        <!-- start footer -->
+        <div id="footer">
+	        <uc:footer id="ucFooter" runat="server" />
+        </div>
+        <!-- end footer -->
+    </div>
+    <asp:sitemapdatasource id="siteMapDataSource" runat="server" />
+</form>
+</body>
+</html>

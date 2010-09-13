@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4CC4688-BEBA-40EF-855C-250426D913E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LiveFreeRange.Operational</RootNamespace>
+    <AssemblyName>LiveFreeRange.Operational</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculationManager.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="EmailManager.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="PayPalManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Twitter.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="Web References\PayPalAPI.Sandbox\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PayPalAPI.Express\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\AddressVerifyResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BAUpdateResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BillOutstandingAmountResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BillUserResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMButtonSearchResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMCreateButtonResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMGetButtonDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMGetInventoryResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMManageButtonStatusResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMSetInventoryResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\BMUpdateButtonResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\CreateBillingAgreementResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\CreateMobilePaymentResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\CreateRecurringPaymentsProfileResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoAuthorizationResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoCaptureResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoDirectPaymentResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoExpressCheckoutPaymentResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoMobileCheckoutPaymentResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoNonReferencedCreditResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoReauthorizationResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoReferenceTransactionResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoUATPAuthorizationResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoUATPExpressCheckoutPaymentResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\DoVoidResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\EnterBoardingResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetAccessPermissionDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetAuthDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetBalanceResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetBillingAgreementCustomerDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetBoardingDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetExpressCheckoutDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetMobileStatusResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetPalDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetRecurringPaymentsProfileDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\GetTransactionDetailsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\ManagePendingTransactionStatusResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\ManageRecurringPaymentsProfileStatusResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\MassPayResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\RefundTransactionResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\SetAccessPermissionsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\SetAuthFlowParamResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\SetCustomerBillingAgreementResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\SetExpressCheckoutResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\SetMobileCheckoutResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\TransactionSearchResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\UpdateAccessPermissionsResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\UpdateRecurringPaymentsProfileResponseType1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\AddressVerifyResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BAUpdateResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BillOutstandingAmountResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BillUserResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMButtonSearchResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMCreateButtonResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMGetButtonDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMGetInventoryResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMManageButtonStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMSetInventoryResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\BMUpdateButtonResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\CoreComponentTypes.xsd" />
+    <None Include="Web References\PayPalAPI.Sandbox\CreateBillingAgreementResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\CreateMobilePaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\CreateRecurringPaymentsProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoAuthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoCaptureResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoDirectPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoExpressCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoMobileCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoNonReferencedCreditResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoReauthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoReferenceTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoUATPAuthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoUATPExpressCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\DoVoidResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\eBLBaseComponents.xsd" />
+    <None Include="Web References\PayPalAPI.Sandbox\EnterBoardingResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetAccessPermissionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetAuthDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetBalanceResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetBillingAgreementCustomerDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetBoardingDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetExpressCheckoutDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetMobileStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetPalDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetRecurringPaymentsProfileDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\GetTransactionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\ManagePendingTransactionStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\ManageRecurringPaymentsProfileStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\MassPayResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\PayPalSvc.wsdl" />
+    <None Include="Web References\PayPalAPI.Sandbox\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\RefundTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\SetAccessPermissionsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\SetAuthFlowParamResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\SetCustomerBillingAgreementResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\SetExpressCheckoutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\SetMobileCheckoutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\TransactionSearchResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\UpdateAccessPermissionsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Sandbox\UpdateRecurringPaymentsProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalAPI.Express\CoreComponentTypes.xsd" />
+    <None Include="Web References\PayPalAPI.Express\eBLBaseComponents.xsd" />
+    <None Include="Web References\PayPalAPI.Express\PayPalSvc.wsdl" />
+    <None Include="Web References\PayPalAPI.Express\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiveFreeRange.Common\LiveFreeRange.Common.csproj">
+      <Project>{57A079AB-8E13-468C-AFC0-705EC7644BCD}</Project>
+      <Name>LiveFreeRange.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.paypal.com/wsdl/PayPalSvc.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PayPalAPI.Express\</RelPath>
+      <UpdateFromURL>http://www.paypal.com/wsdl/PayPalSvc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LiveFreeRange_Operational_PayPalAPI_PayPalAPIInterfaceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.sandbox.paypal.com/wsdl/PayPalSvc.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PayPalAPI.Sandbox\</RelPath>
+      <UpdateFromURL>http://www.sandbox.paypal.com/wsdl/PayPalSvc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LiveFreeRange_Operational_PayPalAPI_Sandbox_PayPalAPIInterfaceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
