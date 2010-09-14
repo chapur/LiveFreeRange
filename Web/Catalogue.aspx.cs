@@ -28,5 +28,9 @@ public partial class Catalogue : System.Web.UI.Page
             this.ucProductList.ProductCategoryId = Request.QueryString["CategoryId"];
             this.ucProductList.SubCategoryId = Request.QueryString["SubCategoryId"];
         }
+
+        System.Web.UI.HtmlControls.HtmlGenericControl body;
+        body = (System.Web.UI.HtmlControls.HtmlGenericControl)this.Master.FindControl("bodyTag");
+        body.Attributes.Add("class", "catalog-category-view categorypath-men-shorts-html category-shorts");
     }
 }

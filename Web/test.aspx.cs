@@ -9,6 +9,8 @@ public partial class test : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        //System.Web.UI.HtmlControls.HtmlGenericControl body;
+        //body = (System.Web.UI.HtmlControls.HtmlGenericControl)this.Master.FindControl("bodyTag");
+        //body.Attributes.Add("class", "cms-index-index cms-home");
     }
 }

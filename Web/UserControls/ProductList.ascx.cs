@@ -83,6 +83,9 @@ public partial class UserControls_ProductList : System.Web.UI.UserControl
         Literal litProductName = listViewDataItem.FindControl("litProductName") as Literal;
         litProductName.Text = currentProduct.ProductName;
 
+        Literal litProductPrice = listViewDataItem.FindControl("litProductPrice") as Literal;
+        litProductPrice.Text = string.Format("{0:c}", currentProduct.ProductPrice.ToString());
+
         Image imgProduct = listViewDataItem.FindControl("imgProduct") as Image;
         imgProduct.ImageUrl = "/web/images/catalogue/small/" + currentProduct.ProductImageUrl;
         imgProduct.AlternateText = currentProduct.ProductName + " - " + currentProduct.ProductDescription;

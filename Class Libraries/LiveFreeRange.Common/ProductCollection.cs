@@ -18,6 +18,8 @@ namespace LiveFreeRange.Common
             _productDescription = dr["ProductDescription"].ToString();
             _productColour = dr["ProductColourName"].ToString();
             _productImageUrl = dr["ProductImageUrl"].ToString();
+            _productPrice = Convert.ToDecimal(dr["Price"]);
+            
             //_stockLevel = Convert.ToInt32(dr["StockLevel"]);
         }
         //private int _stockLevel;
@@ -68,6 +70,14 @@ namespace LiveFreeRange.Common
         {
             get { return _productDescription; }
             set { _productDescription = value; }
+        }
+
+        private decimal _productPrice;
+
+        public decimal ProductPrice
+        {
+            get { return _productPrice; }
+            set { _productPrice = value; }
         }
     }
 }

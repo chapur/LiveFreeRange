@@ -1,9 +1,9 @@
-﻿<%@ master language="C#" autoeventwireup="true" codefile="Cambodian.master.cs" inherits="MasterPages_Cambodian" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CambodianLeftColumn.master.cs" Inherits="MasterPages_CambodianLeftColumn" %>
 <%@ register tagprefix="uc" src="~/UserControls/Footer.ascx" tagname="footer" %>
 <%@ register tagprefix="uc" src="~/UserControls/Header.ascx" tagname="header" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Home page</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Default Description" />
@@ -70,7 +70,7 @@
     		 <uc:header id="ucHeader" runat="server" />
 		</div>
 		<!-- end header container -->
-        <div class="main-container col1-layout">
+        <div class="main-container col2-left-layout">
             <div class="main">
             	<div>
             		<div>

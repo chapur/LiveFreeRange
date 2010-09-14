@@ -11,12 +11,12 @@
         </ul>
     </div>
     <h1 class="logo">
-        <a href="home.html" title="Sheets">
-            <img src="images/logo.gif" alt="Sheets" /></a></h1>
+        <a href="default.aspx" title="Logo">
+            <img src="images/Koi.png" alt="Sheets" /></a></h1>
     <div class="nav-container">
         <ul id="nav">
-            <li class="level0 nav-1 level-top first parent"><a href="product_listing.html" class="level-top">
-                <span>Clothing</span> </a>
+            <li class="level0 nav-1 level-top first parent"><asp:hyperlink id="hlClothing" runat="server" >
+                <span>Clothing</span> </asp:hyperlink>
                 <ul class="level0">
                     <li class="level1 nav-1-1 first"><a href="product_listing.html"><span>Pants</span> </a>
                     </li>
@@ -24,8 +24,8 @@
                     </li>
                 </ul>
             </li>
-            <li class="level0 nav-2 level-top parent"><a href="product_listing.html" class="level-top">
-                <span>Jewellery</span> </a>
+            <li class="level0 nav-2 level-top parent"><asp:hyperlink id="hlJewellery" runat="server">
+                <span>Jewellery</span> </asp:hyperlink>
                 <ul class="level0">
                     <li class="level1 nav-2-1 first"><a href="product_listing.html"><span>Shirts</span>
                     </a></li>
@@ -33,8 +33,8 @@
                     </li>
                 </ul>
             </li>
-            <li class="level0 nav-3 level-top last"><a href="product_listing.html" class="level-top">
-                <span>Gifts</span> </a></li>
+            <li class="level0 nav-3 level-top last"><asp:hyperlink id="hlGifts" runat="server" >
+                <span>Gifts</span></asp:hyperlink> </li>
         </ul>
         <form id="search_mini_form" action="#" method="get">
         <div class="form-search">

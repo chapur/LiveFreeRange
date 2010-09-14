@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Catalogue.aspx.cs" Inherits="Catalogue" masterpagefile="~/MasterPages/MasterPage.master"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Catalogue.aspx.cs" Inherits="Catalogue" masterpagefile="~/MasterPages/CambodianLeftColumn.master"%>
 <%@ register tagname="ucShowcase" tagprefix="uc" src="~/UserControls/Showcase.ascx" %>
 <%@ register tagname="ucProductList" tagprefix="uc" src="~/UserControls/ProductList.ascx" %>
 <asp:content contentplaceholderid="cphMain" runat="server">

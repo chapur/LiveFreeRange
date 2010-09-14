@@ -16,11 +16,11 @@ public partial class UserControls_Navigation : System.Web.UI.UserControl
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        this.hlMen.Text = CategoryConstants.Men;
+        this.hlMen.Text = CategoryConstants.Clothing;
         this.hlMen.NavigateUrl = "~/Catalogue.aspx?CategoryId=1";
-        this.hlWomen.Text = CategoryConstants.Women;
+        this.hlWomen.Text = CategoryConstants.Jewellery;
         this.hlWomen.NavigateUrl = "~/Catalogue.aspx?CategoryId=2";
-        this.hlKids.Text = CategoryConstants.Kids;
+        this.hlKids.Text = CategoryConstants.Gifts;
         this.hlKids.NavigateUrl = "~/Catalogue.aspx?CategoryId=3";
     }
 }

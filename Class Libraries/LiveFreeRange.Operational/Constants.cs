@@ -7,9 +7,9 @@ namespace LiveFreeRange.Operational
 {
     public static class CategoryConstants
     {
-        public const string Men = "Men";
-        public const string Women = "Women";
-        public const string Kids = "Kids";
+        public const string Clothing = "Clothing";
+        public const string Jewellery = "Jewellery";
+        public const string Gifts = "Gifts";
     }
 
     public static class SizeConstants
