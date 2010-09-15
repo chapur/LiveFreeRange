@@ -19,6 +19,10 @@ public partial class Register : BasePage
     protected void Page_Load(object sender, EventArgs e)
     {
         this.txtFirstname.Focus();
+
+        System.Web.UI.HtmlControls.HtmlGenericControl body;
+        body = (System.Web.UI.HtmlControls.HtmlGenericControl)this.Master.FindControl("bodyTag");
+        body.Attributes.Add("class", "customer-account-index");
     }
 
     protected void btnRegister_Click(object sender, EventArgs e)
@@ -38,8 +42,6 @@ public partial class Register : BasePage
             endUser.Password = this.txtPassword.Text;
             endUser.ContactInformation.Email = this.txtEmail.Text;
             endUser.ContactInformation.Phone = this.txtPhone.Text;
-            endUser.ContactInformation.Phone2 = this.txtPhone2.Text;
-            endUser.ContactInformation.Fax = this.txtFax.Text;
             endUser.IsSubscribed = this.chkNewsletter.Checked;
 
             processUser.EndUser = endUser;

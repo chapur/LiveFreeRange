@@ -17,8 +17,8 @@ public partial class Account_CustomerOrders : BasePage
 	{
 		if ( !IsPostBack )
 		{
-			Literal litWelcome = ( Literal) Master.FindControl( "litWelcome" );
-			litWelcome.Text = "Welcome, " + base.CurrentEndUser.FirstName + " " + base.CurrentEndUser.LastName;
+            //Literal litWelcome = ( Literal) Master.FindControl( "litWelcome" );
+            //litWelcome.Text = "Welcome, " + base.CurrentEndUser.FirstName + " " + base.CurrentEndUser.LastName;
 			LoadOrders();
 		}
 	}
