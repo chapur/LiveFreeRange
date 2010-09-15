@@ -20,6 +20,8 @@ public partial class UserControls_ProductDetailsNew : System.Web.UI.UserControl
             this.LoadProduct();
             this.hlContinueShopping.NavigateUrl = "~/Catalogue.aspx?CategoryId=" + Request.QueryString["CategoryId"];
         }
+
+       
     }
 
     private void LoadProduct()
@@ -47,6 +49,8 @@ public partial class UserControls_ProductDetailsNew : System.Web.UI.UserControl
         this.ddlSizes.DataValueField = "StockLevel";
         this.ddlSizes.DataSource = getProduct.ProductSize;
         this.ddlSizes.DataBind();
+
+        this.hlProductImage.NavigateUrl = "~/images/Catalogue/large/" + getProduct.Product.ImageUrl;
     }
 
     protected void btnAddToBasket_Click(object sender, EventArgs e)

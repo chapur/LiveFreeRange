@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" masterpagefile="~/MasterPages/MasterPage.master"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" masterpagefile="~/MasterPages/Cambodian.master"%>
 <asp:content contentplaceholderid="cphMain" runat="server">
 <table border="0" cellpadding="2" cellspacing="0" style="width: 432px">
         <tr>

@@ -426,7 +426,7 @@ tr.summary-details-excluded { font-style:italic; }
 /* Header ================================================================================ */
 .header-container { padding-bottom:2px;}
 .header { background-color:#fff; }
-.header .logo { text-align:left; text-decoration:none !important; margin-bottom:10px; }
+.header .logo { text-align:center; text-decoration:none !important; margin-bottom:10px; }
 .header .logo strong { font-size:54px;
 height:0;
 left:-999em;
